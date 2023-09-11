@@ -1,0 +1,20 @@
+.header_font{}
+.blog-preface {
+  // width: 100%;
+  max-width: 320px !important;
+  border: solid;
+}
+
+.blog_img {
+  min-height: 250px !important;
+}
+
+.blog_list_container {
+  gap: 50px;
+  .blog_pack {
+    margin-top: -10px;
+    flex: 2;
+    gap: 50px !important;
+  }
+}
+
